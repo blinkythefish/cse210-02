@@ -1,0 +1,22 @@
+Hilo Program
+
+Modules used: 
+Random
+
+Classes planned to realease
+
+Class input:
+'''This class will keep the player informed of what is happening in the game, take player's input and make
+the game run as expected(it executes all the classes.)'''
+	current_card=dealer(current_card)
+
+Class dealer:
+'''This class will be in charge to pick a random card from 1 to 13
+and return the new card and the last played card'''
+	
+
+Class check_input:
+'''This class will determine if a the guess was right or wrong'''
+
+Class calculate_score:
+'''This class will calculate the player's score'''

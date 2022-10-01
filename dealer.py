@@ -17,8 +17,9 @@ class Dealer:
         self.last_card=self.last_played[0]
         return print(self.last_card)
 
-deal=Dealer()
-deal.random_new_card()
-deal.get_last_played()
-deal.random_new_card()
+#deal=Dealer()
+#deal.random_new_card()
+#deal.get_last_played()
+#deal.random_new_card()
+#deal.get_last_played()
 
