@@ -3,7 +3,7 @@ Hilo Program
 Modules used: 
 Random
 
-Classes planned to realease
+Classes planned for our Hilo game
 
 Class input:
 '''This class will keep the player informed of what is happening in the game, take player's input and make
