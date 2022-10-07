@@ -10,7 +10,6 @@ class CheckInput():
     def __init__(self) -> None:
             # these are the input values that are expected from the user
         self.valid_hilo = ['h', 'l']
-        self.valid_continue = ['y', 'n']
         self.user_guess = ''
 
     def check_hilo_input(self, user_input):
@@ -51,19 +50,4 @@ class CheckInput():
             return -1
         
     
-    def check_continue_input(self, user_input):
-        '''
-            checks the user's input against the expected answers
-            params: user_input - is the input from the user to be checked 
-                                against valid inputs
-            return: True - if the user gave a valid input, returns the user input as well
-                    False - if the user did not give valid input
-        '''
-
-        check_continue_input = user_input.strip().lower()
-        
-        if check_continue_input.strip().lower() in self.valid_continue:
-            return [True, check_continue_input]
-
-        else:
-            return False
+   
